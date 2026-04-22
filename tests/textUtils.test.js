@@ -1,4 +1,5 @@
-const { capitalise, wordCount, reverse } = require("../src/textUtils");
+import { capitalise, wordCount, reverse }
+  from "../src/textUtils.js";
 
 describe("textUtils – capitalise()", () => {
   test("capitalises the first letter of a lowercase word", () => {
