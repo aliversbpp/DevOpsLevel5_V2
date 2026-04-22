@@ -73,4 +73,3 @@ describe("textUtils – reverse()", () => {
     expect(reverse("åßç")).toBe("çßå");
   });
 });
-``
