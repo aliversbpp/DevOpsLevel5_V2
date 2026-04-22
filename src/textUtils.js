@@ -1,8 +1,10 @@
 /**
  * Capitalises the first letter of a string
  */
-function capitalise(text) {
-  if (!text) return "";
+export function capitalise(text) {
+  if (typeof text !== "string" || text.length === 0) {
+    return "";
+  }
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
