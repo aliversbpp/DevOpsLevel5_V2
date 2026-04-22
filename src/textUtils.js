@@ -1,7 +1,7 @@
 /**
  * Capitalises the first letter of a string
  */
-export function capitalise(text) {
+function capitalise(text) {
   if (typeof text !== "string" || text.length === 0) {
     return "";
   }
