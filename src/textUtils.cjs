@@ -1,8 +1,8 @@
-import {
+const {
   capitalise,
   wordCount,
   reverse
-} from "./textUtils.js";
+} = require("./textUtils.js");
 
 module.exports = {
   capitalise,
