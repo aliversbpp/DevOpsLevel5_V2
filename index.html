@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Text Utils App</title>
+</head>
+<body>
+  <h1>Text Utilities</h1>
+
+  <input id="text" placeholder="Enter text" />
+  <button onclick="run()">Run</button>
+
+  <ul>
+    <li id="cap"></li>
+    <li id="count"></li>
+    <li id="rev"></li>
+  </ul>
+
+  <script type="module">
+    import { capitalise, wordCount, reverse } from "./src/textUtils.js";
+
+    window.run = () => {
+      const value = document.getElementById("text").value;
+      document.getElementById("cap").textContent =
+        "Capitalised: " + capitalise(value);
+      document.getElementById("count").textContent =
+        "Word count: " + wordCount(value);
+      document.getElementById("rev").textContent =
+        "Reversed: " + reverse(value);
+    };
+  </script>
+</body>
+</html>
+``
