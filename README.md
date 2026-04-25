@@ -28,3 +28,4 @@ This project is designed as a small but realistic example of a modern web applic
 This project includes an example Terraform configuration that provisions an AWS S3 bucket.  
 While the current application is deployed via GitHub Pages, this demonstrates how the same
 application could be hosted on cloud infrastructure using Infrastructure‑as‑Code principles.
+Implementation of IaC can be seen on AWS part of the demo.
