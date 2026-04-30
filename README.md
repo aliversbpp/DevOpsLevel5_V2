@@ -1,4 +1,4 @@
-# Text Utils App
+# Text Utilities Application
 
 A simple JavaScript-based text utilities application with automated tests, linting, Docker support, and CI/CD readiness.
 
