@@ -23,7 +23,7 @@ This project is designed as a small but realistic example of a modern web applic
     └── workflows/          ← Empty for now — you'll create the pipeline here
 ```
 
-### Infrastructure as Code (Example)
+### Infrastructure as Code! (Example)
 
 This project includes an example Terraform configuration that provisions an AWS S3 bucket.  
 While the current application is deployed via GitHub Pages, this demonstrates how the same
